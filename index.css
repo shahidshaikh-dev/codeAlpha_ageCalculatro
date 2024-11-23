@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(135deg, #78c15d, #0c7211);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+h1{
+    color: white;
+}
+.age-container {
+    /* box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.2); */
+    box-shadow: 0 0 10px rgb(220, 205, 205);
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       padding: 55px;
+       border-radius: 15px;
+        height: auto;
+    border: 2px solid;
+    margin: auto;
+}
+.age-input {
+    color: #064f26; /* Dark Green text */
+
+    margin-top: 10px;
+}
+.age-button {
+    margin: 20px 0px;
+}
+
+.calculate-btn{
+    background-color: rgb(34, 31, 31);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.age-result {
+    color: #D3D3D3; /* Light Gray text */
+
+}
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 9px;
+    background-color: #FFFFFF; 
+    border: 2px solid #4caf50; 
+    color: #4caf50; 
+    
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 500px) {
+    .age-container {
+        border: none;
+        box-shadow: none;
+        padding: 0px;
+     
+    }
+    h1 {
+        margin-bottom: 24px;
+    }
+    .age-result{
+        color: white;
+    }
+}
+
